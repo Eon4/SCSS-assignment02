@@ -13,7 +13,7 @@ body {
   }
   
   header {
-    background-color: #fff;
+    background-color: $white;
     padding-left: 5px;
   }
   
@@ -25,16 +25,16 @@ body {
   
   .local {
     display: block;
-    background-color: #e64448;
+    background-color:$page-background-color;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
 
     h1 {
-        color: #3c3a48;
+        color: $darkgrey;
       }
       p {
-        color: #eab244;
+        color: $yellow;
       }
       
   }
@@ -49,13 +49,13 @@ body {
   
   .signup {
     display: block;
-    background-color: #89c5c7;
-    color: #0b354b;
+    background-color: $yellow;
+    color: $darkblue;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
     h1 {
-        color: #696c6d;
+        color: $darkgrey;
       }
       
       label {
@@ -72,16 +72,16 @@ body {
   
   .about {
     display: block;
-    background-color: #eab244;
+    background-color: $yellow;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5px;
     h1 {
-        color: #e64448;
+        color: $page-background-color;
       }
       
       p {
-        color: #e1e2df;
+        color: $lightgrey;
       }
   }
   
