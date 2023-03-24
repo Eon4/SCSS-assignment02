@@ -1,4 +1,7 @@
-@use "/css/Scss/partials/colours";
+@use "Scss/partials/colours";
+@use "Scss/partials/sections-common";
+@use "Scss/partials/body";
+@use "Scss/partials/tops-sections";
 
 $page-background-color:#e64448;
 $white:#fff;
