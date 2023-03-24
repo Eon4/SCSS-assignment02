@@ -1,18 +1,12 @@
-@use "Scss/partials/colours";
+@use 'Scss/partials/colours';
 @use "Scss/partials/sections-common" as sections;
 @use "Scss/partials/body";
 @use "Scss/partials/tops-sections";
 
-@mixin secion-padding {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 5px;
-} 
-  
   .local {
     display: block;
     background-color:$page-background-color;
-  @include secion-padding;
+  @include sections.section-padding;
 
     h1 {
         color: $darkgrey;
@@ -23,9 +17,6 @@
       
   }
 
-
-
-
   .bikes {
     background-color: #e1e2df;
     text-align: center;
@@ -35,7 +26,7 @@
     display: block;
     background-color: $yellow;
     color: $darkblue;
-    @include secion-padding;
+    @include sections.secion-padding;
 
     h1 {
         color: $darkgrey;
@@ -56,7 +47,7 @@
   .about {
     display: block;
     background-color: $yellow;
-    @include secion-padding;
+    @include sections.secion-padding;
 
     h1 {
         color: $page-background-color;
