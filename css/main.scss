@@ -1,0 +1,60 @@
+@use 'Scss/partials/colours';
+@use "Scss/partials/sections-common" as sections;
+@use "Scss/partials/body";
+@use "Scss/partials/tops-sections";
+
+  .local {
+    display: block;
+    background-color:$page-background-color;
+  @include sections.section-padding;
+
+    h1 {
+        color: $darkgrey;
+      }
+      p {
+        color: $yellow;
+      }
+      
+  }
+
+  .bikes {
+    background-color: #e1e2df;
+    text-align: center;
+  }
+  
+  .signup {
+    display: block;
+    background-color: $yellow;
+    color: $darkblue;
+    @include sections.secion-padding;
+
+    h1 {
+        color: $darkgrey;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      input {
+        display: block;
+        margin-bottom: 20px;
+      }
+  }
+  
+  
+  .about {
+    display: block;
+    background-color: $yellow;
+    @include sections.secion-padding;
+
+    h1 {
+        color: $page-background-color;
+      }
+      
+      p {
+        color: $lightgrey;
+      }
+  }
+  
