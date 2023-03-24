@@ -5,6 +5,13 @@ $lightgrey:#e1e2df;
 $yellow:#eab244;
 $lightblue:#89c5c7;
 $darkblue:#0b354b;
+
+@mixin secion-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+}
+
 //SCSS code is working
 body {
     width: 400px;
@@ -26,9 +33,7 @@ body {
   .local {
     display: block;
     background-color:$page-background-color;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+  @include secion-padding;
 
     h1 {
         color: $darkgrey;
@@ -51,9 +56,8 @@ body {
     display: block;
     background-color: $yellow;
     color: $darkblue;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    @include secion-padding;
+
     h1 {
         color: $darkgrey;
       }
@@ -73,9 +77,8 @@ body {
   .about {
     display: block;
     background-color: $yellow;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 5px;
+    @include secion-padding;
+
     h1 {
         color: $page-background-color;
       }
